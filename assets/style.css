@@ -1,0 +1,31 @@
+.list-item{
+    display: inline-block;
+    background-color: green;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    border: 1px solid brown;
+    position: relative;
+}
+.list-item:hover{
+    background-color: coral;
+}
+.link{
+text-decoration: none;
+color: white;
+}
+.nav-list{
+    font-size: 0;
+}
+.sub-nav-list{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.list-item:hover > .sub-nav-list{
+   display: block;
+}
+.sub-nav-item{
+    display: block;
+}
